@@ -1,0 +1,16 @@
+PODS:
+  - YYTool (1.0.0)
+
+DEPENDENCIES:
+  - YYTool
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYTool
+
+SPEC CHECKSUMS:
+  YYTool: 804e127fbb9cbd0e1216ceebd94ecc9b995cfa0b
+
+PODFILE CHECKSUM: a00c039e1666ed2fc05f309670e9499e7ca239f7
+
+COCOAPODS: 1.5.3
