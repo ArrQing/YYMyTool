@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/yy32/YYMyTool.git', :tag => s.version }
   s.source_files = 'YYTool/YYTool/RequestTool/*.{h,m}'
+  s.public_header_files = 'YYTool/Classes/YYMyManagerTool.h'
 
   s.requires_arc = true
 
