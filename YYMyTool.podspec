@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'YYMyTool'
-  s.version      = '1.0.6'
+  s.version      = '1.0.8'
   s.summary      = 'An easy way to send request and upload file'
   s.homepage     = 'https://github.com/yy32/YYMyTool'
   s.license      = 'MIT'
@@ -22,13 +22,12 @@ Pod::Spec.new do |s|
 # /三级文件夹以及 多个 子库 一定要把父文件夹的source_files给注释掉 /
 
 c.subspec 'RequestTool' do |request|
-      request.source_files = 'YYMyTool/YYTool/Classes/BaseTool/RequestTool/**/*'
+      request.source_files = 'YYMyTool/YYTool/YYTool/YYToolBase/BaseTool/Classes/RequestTool/**/*'
       end
 
       c.subspec 'YYMyTimeManager' do |myTime|
-      myTime.source_files = 'YYMyTool/YYTool/Classes/BaseTool/YYMyTimeManager/**/*'
+      myTime.source_files = 'YYMyTool/YYTool/YYTool/YYToolBase/BaseTool/Classes/YYMyTimeManager/**/*'
       end
-
 
 
 
@@ -40,9 +39,16 @@ c.subspec 'RequestTool' do |request|
 
   s.requires_arc = true
 
+
+
+
+
+# /******** 补充点 你想用的 三方库 ********/
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   # s.dependency "AFNetworking", "~> 3.2.1"
   # s.frameworks 'UIKit'
+  # s.library   = "iconv"
+  # s.vendored_libraries = 'Classes/**.a', 'Classes/**.a'
 
 end
