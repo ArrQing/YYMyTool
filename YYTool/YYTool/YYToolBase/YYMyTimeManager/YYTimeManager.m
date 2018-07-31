@@ -8,11 +8,9 @@
 
 #import "YYTimeManager.h"
 
-@interface YYTimeManager (){
-    
-    dispatch_source_t _timer;
-    
-}
+@interface YYTimeManager ()
+
+@property(nonatomic,copy) dispatch_source_t timer;
 
 @end
 
@@ -38,15 +36,16 @@
 # pragma mark --- 时分秒
 - (void)getTimeHmsMoreWithSecond:(NSInteger)allTime andNetxSecond:(NSInteger)nextSecond andFinishingBlock:(void (^)(NSString *, NSString *, NSString *))FinishingBlock andNextSecondBlcok:(void (^)(NSInteger))NextSecondBlcok andFinishCompleted:(void (^)(NSInteger))FinishBlock{
     
+    
     __block NSInteger second = allTime;
     __block NSInteger YYnextSecond = 0;
 
-    _timer = nil;
+    self.timer = nil;
     dispatch_queue_t quene = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
+    self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
     
-    dispatch_source_set_timer(_timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
-    dispatch_source_set_event_handler(_timer, ^{
+    dispatch_source_set_timer(self.timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
+    dispatch_source_set_event_handler(self.timer, ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             if (second >= 0) {
                 
@@ -108,14 +107,14 @@
             else
             {
                 //这句话必须写否则会出问题
-                dispatch_source_cancel(_timer);
+                dispatch_source_cancel(self.timer);
                 
             }
         });
         
     });
     //启动源
-    dispatch_resume(_timer);
+    dispatch_resume(self.timer);
     
     
     
@@ -139,12 +138,12 @@
     __block NSInteger YYnextSecond = 0;
 
     __block NSInteger second = allTime;
-    _timer = nil;
+    self.timer = nil;
     dispatch_queue_t quene = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
+    self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
     
-    dispatch_source_set_timer(_timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
-    dispatch_source_set_event_handler(_timer, ^{
+    dispatch_source_set_timer(self.timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
+    dispatch_source_set_event_handler(self.timer, ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             
             if (second >= 0) {
@@ -199,14 +198,14 @@
             else
             {
                 //这句话必须写否则会出问题
-                dispatch_source_cancel(_timer);
+                dispatch_source_cancel(self.timer);
                 
             }
         });
         
     });
     //启动源
-    dispatch_resume(_timer);
+    dispatch_resume(self.timer);
     
     
     
@@ -373,12 +372,12 @@
 
     __block NSInteger second = allTime;
 
-    _timer = nil;
+    self.timer = nil;
     dispatch_queue_t quene = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
+    self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
     
-    dispatch_source_set_timer(_timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
-    dispatch_source_set_event_handler(_timer, ^{
+    dispatch_source_set_timer(self.timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
+    dispatch_source_set_event_handler(self.timer, ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             if (second >= 0) {
                 
@@ -480,14 +479,14 @@
             else
             {
                 //这句话必须写否则会出问题
-                dispatch_source_cancel(_timer);
+                dispatch_source_cancel(self.timer);
                 
             }
         });
         
     });
     //启动源
-    dispatch_resume(_timer);
+    dispatch_resume(self.timer);
     
     
     
@@ -498,13 +497,13 @@
 
 - (void)getMoreTimeShowType:(ShowStyle)type andSecond:(NSInteger)allTime andPlayingBlcok:(void (^)(NSString *, NSString *, NSString *))PlayingBlcok andFinishCompleted:(void (^)(NSInteger))FinishBlock{
     
-    _timer = nil;
+    self.timer = nil;
     __block NSInteger second = allTime;
     dispatch_queue_t quene = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
+    self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, quene);
     
-    dispatch_source_set_timer(_timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
-    dispatch_source_set_event_handler(_timer, ^{
+    dispatch_source_set_timer(self.timer, dispatch_walltime(NULL, 0), NSEC_PER_SEC * 1, 0);
+    dispatch_source_set_event_handler(self.timer, ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             if (second >= 0) {
                 
@@ -596,14 +595,14 @@
             else
             {
                 //这句话必须写否则会出问题
-                dispatch_source_cancel(_timer);
+                dispatch_source_cancel(self.timer);
                 
             }
         });
         
     });
     //启动源
-    dispatch_resume(_timer);
+    dispatch_resume(self.timer);
     
     
     

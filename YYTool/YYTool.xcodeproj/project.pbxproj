@@ -15,11 +15,11 @@
 		8466B813210AA49400572150 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466B812210AA49400572150 /* main.m */; };
 		8466B81D210AA49400572150 /* YYToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466B81C210AA49400572150 /* YYToolTests.m */; };
 		8466B828210AA49400572150 /* YYToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466B827210AA49400572150 /* YYToolUITests.m */; };
-		84EF5E43210B1E450096800B /* NSURLSessionVDExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E3C210B1E450096800B /* NSURLSessionVDExtend.m */; };
-		84EF5E44210B1E450096800B /* VDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E3E210B1E450096800B /* VDRequest.m */; };
-		84EF5E45210B1E450096800B /* VDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E40210B1E450096800B /* VDResponse.m */; };
-		84EF5E46210B1E450096800B /* VDURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E42210B1E450096800B /* VDURLRequest.m */; };
-		84EF5E4A210B1E620096800B /* YYTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E49210B1E620096800B /* YYTimeManager.m */; };
+		84EF5E5A210FF5BB0096800B /* NSURLSessionVDExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E4F210FF5BB0096800B /* NSURLSessionVDExtend.m */; };
+		84EF5E5B210FF5BB0096800B /* VDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E51210FF5BB0096800B /* VDRequest.m */; };
+		84EF5E5C210FF5BB0096800B /* VDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E53210FF5BB0096800B /* VDResponse.m */; };
+		84EF5E5D210FF5BB0096800B /* VDURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E55210FF5BB0096800B /* VDURLRequest.m */; };
+		84EF5E5E210FF5BB0096800B /* YYTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF5E59210FF5BB0096800B /* YYTimeManager.m */; };
 		9B01FE746F4F38C2F20B1290 /* libPods-YYTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBD873BD19A6DA49F2F0F2 /* libPods-YYTool.a */; };
 /* End PBXBuildFile section */
 
@@ -58,17 +58,17 @@
 		8466B823210AA49400572150 /* YYToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8466B827210AA49400572150 /* YYToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYToolUITests.m; sourceTree = "<group>"; };
 		8466B829210AA49400572150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84EF5E3B210B1E450096800B /* NSURLSessionVDExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionVDExtend.h; sourceTree = "<group>"; };
-		84EF5E3C210B1E450096800B /* NSURLSessionVDExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionVDExtend.m; sourceTree = "<group>"; };
-		84EF5E3D210B1E450096800B /* VDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDRequest.h; sourceTree = "<group>"; };
-		84EF5E3E210B1E450096800B /* VDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDRequest.m; sourceTree = "<group>"; };
-		84EF5E3F210B1E450096800B /* VDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDResponse.h; sourceTree = "<group>"; };
-		84EF5E40210B1E450096800B /* VDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDResponse.m; sourceTree = "<group>"; };
-		84EF5E41210B1E450096800B /* VDURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDURLRequest.h; sourceTree = "<group>"; };
-		84EF5E42210B1E450096800B /* VDURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDURLRequest.m; sourceTree = "<group>"; };
-		84EF5E48210B1E620096800B /* YYTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeManager.h; sourceTree = "<group>"; };
-		84EF5E49210B1E620096800B /* YYTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeManager.m; sourceTree = "<group>"; };
-		84EF5E4B210B1E7D0096800B /* YYMyManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYMyManagerTool.h; sourceTree = "<group>"; };
+		84EF5E4E210FF5BB0096800B /* NSURLSessionVDExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionVDExtend.h; sourceTree = "<group>"; };
+		84EF5E4F210FF5BB0096800B /* NSURLSessionVDExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionVDExtend.m; sourceTree = "<group>"; };
+		84EF5E50210FF5BB0096800B /* VDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDRequest.h; sourceTree = "<group>"; };
+		84EF5E51210FF5BB0096800B /* VDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDRequest.m; sourceTree = "<group>"; };
+		84EF5E52210FF5BB0096800B /* VDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDResponse.h; sourceTree = "<group>"; };
+		84EF5E53210FF5BB0096800B /* VDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDResponse.m; sourceTree = "<group>"; };
+		84EF5E54210FF5BB0096800B /* VDURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDURLRequest.h; sourceTree = "<group>"; };
+		84EF5E55210FF5BB0096800B /* VDURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDURLRequest.m; sourceTree = "<group>"; };
+		84EF5E58210FF5BB0096800B /* YYTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeManager.h; sourceTree = "<group>"; };
+		84EF5E59210FF5BB0096800B /* YYTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeManager.m; sourceTree = "<group>"; };
+		84EF5E5F210FF5D50096800B /* YYBaseTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYBaseTools.h; sourceTree = "<group>"; };
 		99295211FEBA22F964C08191 /* Pods-YYTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYTool/Pods-YYTool.debug.xcconfig"; sourceTree = "<group>"; };
 		AC47DF1A58262F1D4B660706 /* Pods-YYTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYTool/Pods-YYTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,9 +124,7 @@
 		8466B802210AA49100572150 /* YYTool */ = {
 			isa = PBXGroup;
 			children = (
-				84EF5E4B210B1E7D0096800B /* YYMyManagerTool.h */,
-				84EF5E47210B1E620096800B /* YYMyTimeManager */,
-				84EF5E3A210B1E450096800B /* RequestTool */,
+				84EF5E4C210FF5BB0096800B /* YYToolBase */,
 				8466B803210AA49100572150 /* AppDelegate.h */,
 				8466B804210AA49100572150 /* AppDelegate.m */,
 				8466B806210AA49100572150 /* ViewController.h */,
@@ -158,26 +156,36 @@
 			path = YYToolUITests;
 			sourceTree = "<group>";
 		};
-		84EF5E3A210B1E450096800B /* RequestTool */ = {
+		84EF5E4C210FF5BB0096800B /* YYToolBase */ = {
 			isa = PBXGroup;
 			children = (
-				84EF5E3B210B1E450096800B /* NSURLSessionVDExtend.h */,
-				84EF5E3C210B1E450096800B /* NSURLSessionVDExtend.m */,
-				84EF5E3D210B1E450096800B /* VDRequest.h */,
-				84EF5E3E210B1E450096800B /* VDRequest.m */,
-				84EF5E3F210B1E450096800B /* VDResponse.h */,
-				84EF5E40210B1E450096800B /* VDResponse.m */,
-				84EF5E41210B1E450096800B /* VDURLRequest.h */,
-				84EF5E42210B1E450096800B /* VDURLRequest.m */,
+				84EF5E4D210FF5BB0096800B /* RequestTool */,
+				84EF5E57210FF5BB0096800B /* YYMyTimeManager */,
+				84EF5E5F210FF5D50096800B /* YYBaseTools.h */,
+			);
+			path = YYToolBase;
+			sourceTree = "<group>";
+		};
+		84EF5E4D210FF5BB0096800B /* RequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				84EF5E4E210FF5BB0096800B /* NSURLSessionVDExtend.h */,
+				84EF5E4F210FF5BB0096800B /* NSURLSessionVDExtend.m */,
+				84EF5E50210FF5BB0096800B /* VDRequest.h */,
+				84EF5E51210FF5BB0096800B /* VDRequest.m */,
+				84EF5E52210FF5BB0096800B /* VDResponse.h */,
+				84EF5E53210FF5BB0096800B /* VDResponse.m */,
+				84EF5E54210FF5BB0096800B /* VDURLRequest.h */,
+				84EF5E55210FF5BB0096800B /* VDURLRequest.m */,
 			);
 			path = RequestTool;
 			sourceTree = "<group>";
 		};
-		84EF5E47210B1E620096800B /* YYMyTimeManager */ = {
+		84EF5E57210FF5BB0096800B /* YYMyTimeManager */ = {
 			isa = PBXGroup;
 			children = (
-				84EF5E48210B1E620096800B /* YYTimeManager.h */,
-				84EF5E49210B1E620096800B /* YYTimeManager.m */,
+				84EF5E58210FF5BB0096800B /* YYTimeManager.h */,
+				84EF5E59210FF5BB0096800B /* YYTimeManager.m */,
 			);
 			path = YYMyTimeManager;
 			sourceTree = "<group>";
@@ -353,12 +361,12 @@
 			files = (
 				8466B808210AA49100572150 /* ViewController.m in Sources */,
 				8466B813210AA49400572150 /* main.m in Sources */,
-				84EF5E44210B1E450096800B /* VDRequest.m in Sources */,
+				84EF5E5B210FF5BB0096800B /* VDRequest.m in Sources */,
 				8466B805210AA49100572150 /* AppDelegate.m in Sources */,
-				84EF5E45210B1E450096800B /* VDResponse.m in Sources */,
-				84EF5E43210B1E450096800B /* NSURLSessionVDExtend.m in Sources */,
-				84EF5E4A210B1E620096800B /* YYTimeManager.m in Sources */,
-				84EF5E46210B1E450096800B /* VDURLRequest.m in Sources */,
+				84EF5E5C210FF5BB0096800B /* VDResponse.m in Sources */,
+				84EF5E5A210FF5BB0096800B /* NSURLSessionVDExtend.m in Sources */,
+				84EF5E5E210FF5BB0096800B /* YYTimeManager.m in Sources */,
+				84EF5E5D210FF5BB0096800B /* VDURLRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
