@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'YYMyTool'
-  s.version      = '1.0.8'
+  s.version      = '1.0.9'
   s.summary      = 'An easy way to send request and upload file'
   s.homepage     = 'https://github.com/yy32/YYMyTool'
   s.license      = 'MIT'
@@ -23,20 +23,19 @@ Pod::Spec.new do |s|
 
 
 
-# s.subspec 'YYToolBase' do |t|
-#         # t.source_files = 'SYBaseKit/Classes/Tool/**/*'
+s.subspec 'YYToolBase' do |t|
+        # t.source_files = 'YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
       
-#       t.subspec 'RequestTool' do |defi|
-#         defi.source_files = 'YYMyTool/YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
-#         end
+      t.subspec 'RequestTool' do |defi|
+        defi.source_files = 'YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}'
+        end
 
-#       t.subspec 'YYMyTimeManager' do |net|
-#         net.source_files = 'YYMyTool/YYTool/YYTool/Classes/YYToolBase/YYMyTimeManager/**/*'
-#         end
-#     end
+      t.subspec 'YYMyTimeManager' do |net|
+        net.source_files = 'YYTool/YYTool/YYToolBase/YYMyTimeManager/**/*.{h,m}'
+        end
+    end
 
 
-s.source_files  = 'pod/YYTool/YYTool/YYToolBase/Classes/**/*.{h,m}'
 
 
 
