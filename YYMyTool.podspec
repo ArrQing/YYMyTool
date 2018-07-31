@@ -23,19 +23,20 @@ Pod::Spec.new do |s|
 
 
 
-s.subspec 'BaseTool' do |t|
-        # t.source_files = 'SYBaseKit/Classes/Tool/**/*'
+# s.subspec 'YYToolBase' do |t|
+#         # t.source_files = 'SYBaseKit/Classes/Tool/**/*'
       
-      t.subspec 'RequestTool' do |defi|
-        defi.source_files = 'YYMyTool/YYTool/YYTool/YYToolBase/Classes/BaseTool/RequestTool/**/*'
-        end
+#       t.subspec 'RequestTool' do |defi|
+#         defi.source_files = 'YYMyTool/YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
+#         end
 
-      t.subspec 'YYMyTimeManager' do |net|
-        net.source_files = 'YYMyTool/YYTool/YYTool/YYToolBase/Classes/BaseTool/YYMyTimeManager/**/*'
-        end
-    end
+#       t.subspec 'YYMyTimeManager' do |net|
+#         net.source_files = 'YYMyTool/YYTool/YYTool/Classes/YYToolBase/YYMyTimeManager/**/*'
+#         end
+#     end
 
 
+s.source_files  = 'Classes/*.{h,m}'
 
 
 
