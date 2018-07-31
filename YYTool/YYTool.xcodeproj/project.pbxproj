@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		37EBD873BD19A6DA49F2F0F2 /* libPods-YYTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8443A3922110772500A24547 /* YYBaseTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBaseTools.h; sourceTree = "<group>"; };
 		8466B800210AA49100572150 /* YYTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8466B803210AA49100572150 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8466B804210AA49100572150 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		8466B823210AA49400572150 /* YYToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8466B827210AA49400572150 /* YYToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYToolUITests.m; sourceTree = "<group>"; };
 		8466B829210AA49400572150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84EF5E6221104ED70096800B /* YYBaseTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBaseTools.h; sourceTree = "<group>"; };
 		84EF5E6421104ED70096800B /* YYTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTimeManager.h; sourceTree = "<group>"; };
 		84EF5E6521104ED70096800B /* YYTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTimeManager.m; sourceTree = "<group>"; };
 		84EF5E6721104ED70096800B /* NSURLSessionVDExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionVDExtend.h; sourceTree = "<group>"; };
@@ -99,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8443A3912110772500A24547 /* BaseHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8443A3922110772500A24547 /* YYBaseTools.h */,
+			);
+			path = BaseHeader;
+			sourceTree = "<group>";
+		};
 		8466B7F7210AA49100572150 = {
 			isa = PBXGroup;
 			children = (
@@ -159,8 +167,8 @@
 		84EF5E4C210FF5BB0096800B /* YYToolBase */ = {
 			isa = PBXGroup;
 			children = (
+				8443A3912110772500A24547 /* BaseHeader */,
 				84EF5E6621104ED70096800B /* RequestTool */,
-				84EF5E6221104ED70096800B /* YYBaseTools.h */,
 				84EF5E6321104ED70096800B /* YYMyTimeManager */,
 			);
 			path = YYToolBase;

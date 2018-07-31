@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   # 如果超过两级 文件夹 这个 会 报错的 结构尚浅
   # s.public_header_files = 'YYMyTool/YYTool/YYTool/YYToolBase/YYBaseTools.h'
-   s.public_header_files = 'YYTool/YYTool/YYToolBase/YYBaseTools.h'
+   # s.public_header_files = 'YYTool/YYTool/YYToolBase/* * /* * /*.h'
 
 
 # /三级文件夹以及 多个 子库 一定要把父文件夹的source_files给注释掉 /
@@ -27,6 +27,10 @@ Pod::Spec.new do |s|
 s.subspec 'YYToolBase' do |t|
         # t.source_files = 'YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
       
+       t.subspec 'BaseHeader' do |base|
+        base.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*'
+        end
+
       t.subspec 'RequestTool' do |defi|
         defi.source_files = 'YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}'
         end
