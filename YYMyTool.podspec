@@ -1,5 +1,7 @@
 
 
+# /************ 配置说明 ***************/
+
 Pod::Spec.new do |s|
 
   s.name         = 'YYMyTool'
@@ -59,3 +61,16 @@ s.subspec 'YYToolBase' do |t|
   # s.vendored_libraries = 'Classes/**.a', 'Classes/**.a'
 
 end
+
+
+
+# /************ 版本更新维护 ***************/
+
+
+# git tag 1.1.2
+# git push origin 1.1.2
+# pod lib lint YYMyTool.podspec --allow-warnings
+# pod trunk push YYMyTool.podspec --allow-warnings
+
+
+
