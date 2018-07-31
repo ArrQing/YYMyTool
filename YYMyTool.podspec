@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 # /三级文件夹以及 多个 子库 一定要把父文件夹的source_files给注释掉 /
 
 c.subspec 'RequestTool' do |request|
-      request.source_files = 'YYMyTool/Classes/BaseTool/RequestTool/**/*'
+      request.source_files = 'YYMyTool/YYTool/Classes/BaseTool/RequestTool/**/*'
       end
 
       c.subspec 'YYMyTimeManager' do |myTime|
-      myTime.source_files = 'YYMyTool/Classes/BaseTool/YYMyTimeManager/**/*'
+      myTime.source_files = 'YYMyTool/YYTool/Classes/BaseTool/YYMyTimeManager/**/*'
       end
 
 
