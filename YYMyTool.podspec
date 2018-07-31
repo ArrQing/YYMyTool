@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 #     end
 
 
-s.source_files  = 'Classes/*.{h,m}'
+s.source_files  = 'pod/YYTool/YYTool/YYToolBase/Classes/**/*.{h,m}'
 
 
 
