@@ -159,9 +159,8 @@
 		84EF5E4C210FF5BB0096800B /* YYToolBase */ = {
 			isa = PBXGroup;
 			children = (
-				84EF5E4D210FF5BB0096800B /* RequestTool */,
-				84EF5E57210FF5BB0096800B /* YYMyTimeManager */,
-				84EF5E5F210FF5D50096800B /* YYBaseTools.h */,
+				84EF5E6121100EB90096800B /* Others */,
+				84EF5E6021100DF20096800B /* BaseTool */,
 			);
 			path = YYToolBase;
 			sourceTree = "<group>";
@@ -188,6 +187,23 @@
 				84EF5E59210FF5BB0096800B /* YYTimeManager.m */,
 			);
 			path = YYMyTimeManager;
+			sourceTree = "<group>";
+		};
+		84EF5E6021100DF20096800B /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				84EF5E4D210FF5BB0096800B /* RequestTool */,
+				84EF5E57210FF5BB0096800B /* YYMyTimeManager */,
+				84EF5E5F210FF5D50096800B /* YYBaseTools.h */,
+			);
+			path = BaseTool;
+			sourceTree = "<group>";
+		};
+		84EF5E6121100EB90096800B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		917A4D00001EE5A7069C5199 /* Pods */ = {
