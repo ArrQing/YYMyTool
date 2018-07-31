@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'YYMyTool'
-  s.version      = '1.1.0'
+  s.version      = '1.1.1'
   s.summary      = 'An easy way to send request and upload file'
   s.homepage     = 'https://github.com/yy32/YYMyTool'
   s.license      = 'MIT'
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   # 如果超过两级 文件夹 这个 会 报错的 结构尚浅
   # s.public_header_files = 'YYMyTool/YYTool/YYTool/YYToolBase/YYBaseTools.h'
+   s.public_header_files = 'YYTool/YYTool/YYToolBase/YYBaseTools.h'
 
 
 # /三级文件夹以及 多个 子库 一定要把父文件夹的source_files给注释掉 /
