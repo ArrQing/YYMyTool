@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
 s.subspec 'YYToolBase' do |t|
         # t.source_files = 'YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
       
-       t.subspec 'BaseHeader' do |base|
-        base.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*.{h,m}'
-        end
+       # t.subspec 'BaseHeader' do |base|
+       #  base.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*.{h,m}'
+       #  end
 
       t.subspec 'RequestTool' do |defi|
         defi.source_files = 'YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}'
