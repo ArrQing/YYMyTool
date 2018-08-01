@@ -5,7 +5,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'YYMyTool'
-  s.version      = '1.1.2'
+  s.version      = '1.1.3'
   s.summary      = 'An easy way to send request and upload file'
   s.homepage     = 'https://github.com/yy32/YYMyTool'
   s.license      = 'MIT'
@@ -30,7 +30,7 @@ s.subspec 'YYToolBase' do |t|
         # t.source_files = 'YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
       
        t.subspec 'BaseHeader' do |base|
-        base.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*'
+        base.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*.{h,m}'
         end
 
       t.subspec 'RequestTool' do |defi|
