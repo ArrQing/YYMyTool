@@ -53,10 +53,10 @@ s.subspec 'YYToolBase' do |ss|
 
         end
 
-      ss.subspec 'YYCategory' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
-        sss.frameworks = 'UIKit','Foundation','AVFoundation'
-        end
+      # ss.subspec 'YYCategory' do |sss|
+      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
+      #   sss.frameworks = 'UIKit','Foundation','AVFoundation','AudioToolbox','CommonCrypto','sys','objc'
+      #   end
         
       
       ss.subspec 'YYIconImgManager' do |sss|
@@ -68,12 +68,12 @@ s.subspec 'YYToolBase' do |ss|
         
      
 
-      # ss.subspec 'YYNetWork' do |sss|
-            #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
-            #   sss.dependency 'AFNetworking'
-            #   sss.frameworks = 'UIKit','Foundation'
+      ss.subspec 'YYNetWork' do |sss|
+              sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
+              sss.dependency 'AFNetworking'
+              sss.frameworks = 'UIKit','Foundation'
 
-            #   end
+              end
 
     end
 
