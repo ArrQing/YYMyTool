@@ -14,15 +14,16 @@ target 'XXX工程' do
 end
 
 ```
+### 使用所有（pod 'YYMyTool'）
 
+### 时间 工具（pod 'YYMyTool/YYToolBase/RequestTool'）
 
-# 时间 工具
 
 ```
 - (void)getTime{
     
     
-      //    类型 有 时分秒 分秒 
+      //    类型 有 时分秒， 分秒 
     
     [[YYTimeManager shareManager] getMoreTimeShowType:0 andSecond:10 andNetxSecond:3 andPlayingBlcok:^(NSString *hhStr, NSString *minStr, NSString *secStr) {
         
