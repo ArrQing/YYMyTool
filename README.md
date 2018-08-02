@@ -23,7 +23,7 @@ end
 - (void)getTime{
     
     
-      //    类型 有 时分秒 分秒 
+      //    类型 有 时分秒， 分秒 
     
     [[YYTimeManager shareManager] getMoreTimeShowType:0 andSecond:10 andNetxSecond:3 andPlayingBlcok:^(NSString *hhStr, NSString *minStr, NSString *secStr) {
         
