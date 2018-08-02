@@ -1,9 +1,46 @@
 # YYMyTool
->版本更新维护 
+
+具体使用
 
 ```
-git tag 1.1.4
-git push origin 1.1.
-pod lib lint YYMyTool.podspec --allow-warnings
-pod trunk push YYMyTool.podspec --allow-warnings
+platform :ios, '8.0'
+
+target 'XXX工程' do
+   pod 'YYMyTool'
+   
+   # 单独使用 某个工具类
+   # pod 'YYMyTool/YYToolBase/RequestTool'
+
+end
+
+```
+
+
+# 时间 工具
+
+```
+- (void)getTime{
+    
+    
+      //    类型 有 时分秒 分秒 
+    
+    [[YYTimeManager shareManager] getMoreTimeShowType:0 andSecond:10 andNetxSecond:3 andPlayingBlcok:^(NSString *hhStr, NSString *minStr, NSString *secStr) {
+        
+      //     处理 倒计时 显示 时间
+        
+    } andNextSecondBlcok:^(NSInteger nextSecond) {
+        
+     //      处理 每隔3秒后 事件
+        
+    } andFinishCompleted:^(NSInteger lastSecond) {
+        
+        //   处理 最后 1秒后  事件
+
+        
+    }];
+    
+    
+}
+
+
 ```
