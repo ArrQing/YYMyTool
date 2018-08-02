@@ -228,7 +228,6 @@
 				8466B7FC210AA49100572150 /* Sources */,
 				8466B7FD210AA49100572150 /* Frameworks */,
 				8466B7FE210AA49100572150 /* Resources */,
-				8DE99F54CA415CD6C62484AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,26 +344,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8DE99F54CA415CD6C62484AD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YYTool/Pods-YYTool-resources.sh",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYTool/Pods-YYTool-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		969CCA7FA95D7DBE1A77C417 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

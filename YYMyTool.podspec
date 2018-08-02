@@ -107,8 +107,11 @@ end
 
 
 # git tag 1.1.5
+
 # git push origin 1.1.5
+
 # pod lib lint YYMyTool.podspec --allow-warnings
+
 # pod trunk push YYMyTool.podspec --allow-warnings
 
 
