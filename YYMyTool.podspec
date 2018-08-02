@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
 s.subspec 'YYToolBase' do |ss|
         # t.source_files = 'YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
       
-      # ss.subspec 'BaseHeader' do |sss|
-      #   sss.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*.{h,m}'
-      #   end
+      ss.subspec 'BaseHeader' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*'
+        end
 
       ss.subspec 'RequestTool' do |sss|
         sss.source_files = 'YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}'
@@ -42,37 +42,38 @@ s.subspec 'YYToolBase' do |ss|
         end
       
 
-      # ss.subspec 'YYCheckVersion' do |sss|
-      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYCheckVersion/**/*.{h,m}'
-      #   sss.frameworks = 'UIKit', 'Foundation'  
-      #   end
+      ss.subspec 'YYCheckVersion' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCheckVersion/**/*.{h,m}'
+        sss.frameworks = 'UIKit', 'Foundation'  
+        end
 
-      # ss.subspec 'YYAttributedString' do |sss|
-      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYAttributedString/**/*.{h,m}'
-      #   sss.frameworks = 'UIKit','Foundation'
+      ss.subspec 'YYAttributedString' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYAttributedString/**/*.{h,m}'
+        sss.frameworks = 'UIKit','Foundation'
 
-      #   end
-      
-      # ss.subspec 'YYIconImgManager' do |sss|
-      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYIconImgManager/**/*.{h,m}'
-      #   sss.dependency 'AFNetworking'
-      #           sss.frameworks = 'UIKit','Foundation'
+        end
 
-      #   end
-      # ss.subspec 'YYNetWork' do |sss|
-      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
-      #   sss.dependency 'AFNetworking'
-      #   sss.frameworks = 'UIKit','Foundation'
-
-      #   end
-        
       # ss.subspec 'YYCategory' do |sss|
       #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
-      #   sss.dependency 'AFNetworking'
-      #   sss.frameworks = 'UIKit','Foundation'
+      #   sss.frameworks = 'UIKit','Foundation','AVFoundation'
       #   end
         
+      
+      ss.subspec 'YYIconImgManager' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYIconImgManager/**/*.{h,m}'
+        sss.frameworks = 'UIKit','Foundation'
 
+        end
+      
+        
+     
+
+      # ss.subspec 'YYNetWork' do |sss|
+            #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
+            #   sss.dependency 'AFNetworking'
+            #   sss.frameworks = 'UIKit','Foundation'
+
+            #   end
 
     end
 
