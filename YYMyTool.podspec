@@ -40,13 +40,23 @@ s.subspec 'YYToolBase' do |ss|
       ss.subspec 'YYMyTimeManager' do |sss|
         sss.source_files = 'YYTool/YYTool/YYToolBase/YYMyTimeManager/**/*.{h,m}'
         end
-      ss.subspec 'YYMyTimeManager' do |sss|
+      ss.subspec 'YYAttributedString' do |sss|
         sss.source_files = 'YYTool/YYTool/YYToolBase/YYAttributedString/**/*.{h,m}'
         end
 
       ss.subspec 'YYCheckVersion' do |sss|
         sss.source_files = 'YYTool/YYTool/YYToolBase/YYCheckVersion/**/*.{h,m}'
         end
+      ss.subspec 'YYIconImgManager' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYIconImgManager/**/*.{h,m}'
+        end
+      ss.subspec 'YYNetWork' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
+        end
+        ss.subspec 'YYCategory' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
+        end
+        
 
 
     end
