@@ -40,28 +40,34 @@ s.subspec 'YYToolBase' do |ss|
       ss.subspec 'YYMyTimeManager' do |sss|
         sss.source_files = 'YYTool/YYTool/YYToolBase/YYMyTimeManager/**/*.{h,m}'
         end
-      ss.subspec 'YYAttributedString' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYAttributedString/**/*.{h,m}'
-        end
+      
 
-      ss.subspec 'YYCheckVersion' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCheckVersion/**/*.{h,m}'
-        end
-      ss.subspec 'YYIconImgManager' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYIconImgManager/**/*.{h,m}'
-        sss.dependency 'AFNetworking'
-        end
-      ss.subspec 'YYNetWork' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
-        sss.dependency 'AFNetworking'
+      # ss.subspec 'YYCheckVersion' do |sss|
+      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYCheckVersion/**/*.{h,m}'
+      #   sss.frameworks = 'UIKit', 'Foundation'  
+      #   end
 
-        end
+      # ss.subspec 'YYAttributedString' do |sss|
+      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYAttributedString/**/*.{h,m}'
+      #   sss.frameworks 'UIKit'
+      #   sss.frameworks 'Foundation'
+      #   end
+      
+      # ss.subspec 'YYIconImgManager' do |sss|
+      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYIconImgManager/**/*.{h,m}'
+      #   sss.dependency 'AFNetworking'
+      #   end
+      # ss.subspec 'YYNetWork' do |sss|
+      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
+      #   sss.dependency 'AFNetworking'
+
+      #   end
         
-      ss.subspec 'YYCategory' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
-        sss.dependency 'AFNetworking'
+      # ss.subspec 'YYCategory' do |sss|
+      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
+      #   sss.dependency 'AFNetworking'
 
-        end
+      #   end
         
 
 
@@ -79,11 +85,16 @@ s.subspec 'YYToolBase' do |ss|
 
 # /******** 补充点 你想用的 三方库 ********/
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-  # s.dependency "AFNetworking", "~> 3.2.1"
-  # s.frameworks 'UIKit'
+
   # s.library   = "iconv"
   # s.vendored_libraries = 'Classes/**.a', 'Classes/**.a'
+  # s.resources          = "LPPushService/Images/*.png"
+
+
+  # s.dependency "JSONKit", "~> 1.4"
+  # s.dependency "AFNetworking", "~> 3.2.1"
+  # s.frameworks = 'UIKit','Foundation'
+ 
 
 end
 
