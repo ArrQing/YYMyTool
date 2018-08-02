@@ -53,9 +53,12 @@ s.subspec 'YYToolBase' do |ss|
         end
       ss.subspec 'YYNetWork' do |sss|
         sss.source_files = 'YYTool/YYTool/YYToolBase/YYNetWork/**/*.{h,m}'
+        sss.dependency "AFNetworking"
+
         end
-        ss.subspec 'YYCategory' do |sss|
-        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
+        
+      ss.subspec 'YYCategory' do |sss|
+      sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
         end
         
 
