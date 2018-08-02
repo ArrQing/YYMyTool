@@ -53,10 +53,10 @@ s.subspec 'YYToolBase' do |ss|
 
         end
 
-      # ss.subspec 'YYCategory' do |sss|
-      #   sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
-      #   sss.frameworks = 'UIKit','Foundation','AVFoundation'
-      #   end
+      ss.subspec 'YYCategory' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCategory/**/*.{h,m}'
+        sss.frameworks = 'UIKit','Foundation','AVFoundation'
+        end
         
       
       ss.subspec 'YYIconImgManager' do |sss|
