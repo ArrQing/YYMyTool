@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+#import <UIKit/UIKit.h>
 
 @interface YYIconImgManager : NSObject
 
