@@ -41,8 +41,18 @@
 #import "CheckVersionManager.h"
 
 
+/*
+ 网络请求
+ pod 'YYMyTool/YYToolBase/YYNetWork'
+ */
+#import "YYNetWorkingManager.h"
 
 
+/*
+ 更换头像
+ pod 'YYMyTool/YYToolBase/YYIconImgManager'
+ */
+#import "YYIconImgManager.h"
 
 
 
