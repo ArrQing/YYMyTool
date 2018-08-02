@@ -26,20 +26,29 @@ Pod::Spec.new do |s|
 
 
 
-s.subspec 'YYToolBase' do |t|
+s.subspec 'YYToolBase' do |ss|
         # t.source_files = 'YYTool/YYTool/Classes/YYToolBase/RequestTool/**/*'
       
-       # t.subspec 'BaseHeader' do |base|
-       #  base.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*.{h,m}'
-       #  end
-
-      t.subspec 'RequestTool' do |defi|
-        defi.source_files = 'YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}'
+      ss.subspec 'BaseHeader' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/BaseHeader/**/*.{h,m}'
         end
 
-      t.subspec 'YYMyTimeManager' do |net|
-        net.source_files = 'YYTool/YYTool/YYToolBase/YYMyTimeManager/**/*.{h,m}'
+      ss.subspec 'RequestTool' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}'
         end
+
+      ss.subspec 'YYMyTimeManager' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYMyTimeManager/**/*.{h,m}'
+        end
+      ss.subspec 'YYMyTimeManager' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYAttributedString/**/*.{h,m}'
+        end
+
+      ss.subspec 'YYCheckVersion' do |sss|
+        sss.source_files = 'YYTool/YYTool/YYToolBase/YYCheckVersion/**/*.{h,m}'
+        end
+
+
     end
 
 

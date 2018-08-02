@@ -8,10 +8,48 @@
 
 #ifndef YYBaseTools_h
 #define YYBaseTools_h
-//网络请求
+
+/*
+ 请求全部
+ pod 'YYMyTool'
+ */
+
+// **************** 个别 工具 ***************
+
+/*
+ 网络请求
+ pod 'YYMyTool/YYToolBase/RequestTool'
+ */
 #import "VDRequest.h"
 
-// 倒计时
+/*
+ 倒计时
+ pod 'YYMyTool/YYToolBase/YYMyTimeManager'
+ */
 #import "YYTimeManager.h"
+
+/*
+ 富文本字体颜色等
+ pod 'YYMyTool/YYToolBase/YYAttributedString'
+ */
+#import "ManageColorAttributed.h"
+
+/*
+ 版本监测更新
+ pod 'YYMyTool/YYToolBase/YYCheckVersion'
+ */
+#import "CheckVersionManager.h"
+
+
+
+
+
+
+
+
+
+
+
+
 
 #endif /* YYBaseTools_h */

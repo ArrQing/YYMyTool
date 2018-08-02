@@ -1,6 +1,16 @@
 platform :ios,'8.0'
 target 'YYTool' do
 
-pod 'YYTool'
+ pod 'AFNetworking'
+ pod 'JSONModel'
+ pod 'SDWebImage'
+ pod 'MJRefresh'
+ pod 'Masonry'
+ pod 'SVProgressHUD'
+ pod 'FMDB'
+
+# pod 'YYMyTool'
+
+
 end
 
