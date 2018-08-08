@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.name         = 'YYMyTool'
   s.version      = '1.1.5'
   s.summary      = 'An easy way to send request and upload file'
-  s.homepage     = 'https://github.com/yy32/YYMyTool'
+  s.homepage     = 'https://github.com/ArrQing/YYMyTool'
   s.license      = 'MIT'
   s.author       = { 'YY' => '3297509752@qq.com' }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => 'https://github.com/yy32/YYMyTool.git', :tag => s.version }
+  s.source       = { :git => 'https://github.com/ArrQing/YYMyTool.git', :tag => s.version }
   # s.source_files = 'YYTool/YYTool/YYToolBase/**/*.{h,m}'
 
   # s.source_files = 'YYTool/YYTool/YYToolBase/YYBaseTools.h','YYTool/YYTool/YYToolBase/RequestTool/**/*.{h,m}','YYTool/YYTool/YYToolBase/YYMyTimeManager/**/*.{h,m}'
