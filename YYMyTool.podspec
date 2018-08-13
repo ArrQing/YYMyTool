@@ -5,7 +5,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'YYMyTool'
-  s.version      = '1.1.5'
+  s.version      = '1.1.6'
   s.summary      = 'An easy way to send request and upload file'
   s.homepage     = 'https://github.com/ArrQing/YYMyTool'
   s.license      = 'MIT'
@@ -107,9 +107,9 @@ end
 # /************ 版本更新维护 ***************/
 
 
-# git tag 1.1.5
+# git tag 1.1.6
 
-# git push origin 1.1.5
+# git push origin 1.1.6
 
 # pod lib lint YYMyTool.podspec --allow-warnings
 
