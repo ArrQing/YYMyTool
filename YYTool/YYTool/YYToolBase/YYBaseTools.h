@@ -20,13 +20,13 @@
  网络请求
  pod 'YYMyTool/YYToolBase/RequestTool'
  */
-#import "VDRequest.h"
+#import "RequestTool.h"
 
 /*
  倒计时
  pod 'YYMyTool/YYToolBase/YYMyTimeManager'
  */
-#import "YYTimeManager.h"
+#import "YYTimeTool.h"
 
 ///*
 // 富文本字体颜色等
