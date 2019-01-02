@@ -3,7 +3,7 @@
 # /************ 配置说明 ***************/
 
 Pod::Spec.new do |s|
-    s.name         = 'VDCommon'
+    s.name         = 'YYMyTool'
     s.version      = '1.1.7'
     s.summary      = 'a common component'
     s.homepage     = 'https://github.com/ArrQing/YYMyTool'
